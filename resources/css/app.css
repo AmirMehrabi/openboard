@@ -1,0 +1,9 @@
+@tailwind base;
+
+body {
+    font-family: 'Estedad', sans-serif;
+    direction: rtl;
+}
+
+@tailwind components;
+@tailwind utilities;
