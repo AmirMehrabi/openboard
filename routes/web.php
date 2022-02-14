@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +14,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', PagesController::class, 'index');
+Route::get('/', [PagesController::class, 'index'])->name('home');
+
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+
+Route::get('/how-to-use', [PagesController::class, 'howTo'])->name('howTo');
+
+
+Route::get('/view', [PagesController::class, 'view']);
+
+
+Route::get('/{slug}', [PagesController::class, 'show']);
+
+Route::get('/{slug}/edit', [PagesController::class, 'edit']);
+
+
+Route::post('/store', [PagesController::class, 'store'])->name('post.store');
+
+Route::patch('/{slug}/update', [PagesController::class, 'update'])->name('post.update');
+
+
+Route::post('/check-slug', [PagesController::class, 'checkSlug'])->name('check-slug');
