@@ -61,6 +61,7 @@
     src: url('../fonts/Estedad-Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
     url('../fonts/Estedad-Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
     url('../fonts/Estedad-Black.woff') format('woff');
+    font-display: swap;
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 }
 
