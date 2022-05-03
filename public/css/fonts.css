@@ -1,5 +1,6 @@
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 100;
     src: url('../fonts/Estedad-Thin.eot');
@@ -11,6 +12,7 @@
 
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 100;
     src: url('../fonts/Estedad-Thin.eot');
@@ -22,6 +24,7 @@
 
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 300;
     src: url('../fonts/Estedad-Light.eot');
@@ -33,6 +36,7 @@
 
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 500;
     src: url('../fonts/Estedad-Medium.eot');
@@ -44,6 +48,7 @@
 
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/Estedad-Bold.eot');
@@ -55,6 +60,7 @@
 
 @font-face {
     font-family: estedad;
+    font-display: swap;
     font-style: normal;
     font-weight: 900;
     src: url('../fonts/Estedad-Black.eot');
