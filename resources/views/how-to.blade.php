@@ -19,7 +19,7 @@
 </head>
 
 <body class="antialiased dark:bg-slate-900">
-    <button
+    <button aria-label="Dark / Light mode toggle button"
     id="theme-toggle"
     type="button"
     class="text-slate-500  dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 rounded-lg text-sm p-2 m-4"

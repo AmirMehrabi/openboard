@@ -19,7 +19,7 @@
 </head>
 
 <body class="antialiased dark:bg-slate-900">
-    <button
+    <button aria-label="Dark / Light mode toggle button"
     id="theme-toggle"
     type="button"
     class="text-slate-500  dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 rounded-lg text-sm p-2 m-4"
@@ -190,7 +190,7 @@
                     </div>
 
                     <div class="flex gap-4 justify-end">
-                        <button onclick="advancedButton()"
+                        <button aria-label="Show advanced settings button" onclick="advancedButton()"
                             class="shadow bg-slate-700 text-sm hover:bg-slate-900 focus:shadow-outline focus:outline-none text-white font-bold py-1 px-2 rounded"
                             type="button">
                             تنظیمات پیشرفته
