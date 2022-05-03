@@ -165,14 +165,14 @@
                             <div class="w-full">
                                 <textarea name="description"
                                     class="bg-slate-100 appearance-none border-2 border-slate-300 rounded w-full py-2 px-4 text-slate-700 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                                    id="" cols="80" rows="5">{{ old('description', $post->description) }}</textarea>
+                                    id="description" cols="80" rows="5">{{ old('description', $post->description) }}</textarea>
                             </div>
                         </div>
 
                         @if($post->exists)
                         <div class="md:flex md:flex-col md:items-start mb-3">
                             <div class="w-full">
-                                <label class="block text-black font-bold md:text-right mb-1 dark:text-slate-200" for="inline-full-name">
+                                <label class="block text-black font-bold md:text-right mb-1 dark:text-slate-200" for="submitted_code">
                                     کد ویرایش صفحه
                                 </label>
                             </div>
